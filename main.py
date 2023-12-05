@@ -152,7 +152,7 @@ def process(articles):
 
 
 if __name__ == '__main__':
-    # 从目标文件中获取文章
+    # 从目标文件中获取文章, 这需要你自己创建一个 target.py 文件，里面包含一个 target 变量，这个变量是一个字符串，里面包含了你的文章，并且每篇文章之间用 [ ] 分隔开
     articles = target.strip().split('[ ]')
     articles = articles[1:]
 
